@@ -116,12 +116,12 @@
 
 <!-- Header -->
     <header>
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 
   <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
+  <div class="carousel-inner" role="listbox" >
     <div class="item active">
-      <img src="img/1.jpg" alt="Boulevard Fitness">
+      <img src="img/1.jpg" alt="Boulevard Fitness" width=" 100%" >
       <div class="carousel-caption">
     <div class="container">
             <div class="intro-text">
@@ -134,16 +134,17 @@
     </div>
     
     <div class="item">
-      <img src="img/2.jpg" alt="Boulevard Fitness">
+      <img src="img/2.jpg" alt="Boulevard Fitness" width=" 100%" >
     </div>
     
   <div class="item">
-    <img src="img/3.jpg" alt="Boulevard Fitness">
+    <img src="img/3.jpg" alt="Boulevard Fitness" width=" 100%" >
   </div>
-  
 
-</div>
-        
+
+  </div>
+    </div>
+
     </header>
     
     
@@ -300,6 +301,8 @@
 /*
 Replace "XXXXX" with the Instagram user ID and "ZZZZZ" with the Instagram Dev-App access token
 */
+
+/*
 function get_user_instagram_photos($user_id=1574014087,$count=36,$width=240,$height=240){
     $url = 'https://api.instagram.com/v1/tags/boulevardacademia/media/recent?access_token=1574014087.5b9e1e6.700f02420226492daf6d39aedd5fdf24&count='.$count;
     $jsonData = json_decode((file_get_contents($url)));
@@ -324,7 +327,7 @@ function get_user_instagram_photos($user_id=1574014087,$count=36,$width=240,$hei
 }
 
 echo get_user_instagram_photos();
-
+*/
 ?>
     
     
